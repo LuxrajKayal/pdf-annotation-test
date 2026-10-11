@@ -1182,7 +1182,6 @@ function handleMouseDown(e, pageIndex) {
         });
         selectedIndex = annotations.length - 1;
         redrawAnnotations(pageIndex);
-        setTool('select');
         return;
     }
 
@@ -1213,7 +1212,6 @@ function handleMouseDown(e, pageIndex) {
         });
         selectedIndex = annotations.length - 1;
         redrawAnnotations(pageIndex);
-        setTool('select');
         return;
     }
 
@@ -1236,7 +1234,6 @@ function handleMouseDown(e, pageIndex) {
         const newIndex = annotations.length - 1;
         selectedIndex = newIndex;
         redrawAnnotations(pageIndex);
-        setTool('select');
         showNotePopup(newIndex);
         return;
     }
@@ -1633,7 +1630,6 @@ function handleMouseUp(e, pageIndex) {
                 opacity: currentOpacity, thickness: canvasToPdf(currentThickness),
             });
             selectedIndex = annotations.length - 1;
-            setTool('select');
         }
     } else if (currentTool === 'ellipse') {
         const w = endX - startX, h = endY - startY;
@@ -1648,7 +1644,6 @@ function handleMouseUp(e, pageIndex) {
                 opacity: currentOpacity, thickness: canvasToPdf(currentThickness),
             });
             selectedIndex = annotations.length - 1;
-            setTool('select');
         }
     } else if (currentTool === 'line' || currentTool === 'arrow') {
         let ex = endX, ey = endY;
@@ -1669,7 +1664,6 @@ function handleMouseUp(e, pageIndex) {
             updateLineBounds(ann);
             annotations.push(ann);
             selectedIndex = annotations.length - 1;
-            setTool('select');
         }
     } else if (currentTool === 'pen' || currentTool === 'highlight') {
         if (currentPath.length > 2) {
@@ -1695,7 +1689,6 @@ function handleMouseUp(e, pageIndex) {
                 thickness: canvasToPdf(isHighlight ? 12 : currentThickness),
             });
             selectedIndex = annotations.length - 1;
-            setTool('select');
         }
         currentPath = [];
     } else if (currentTool === 'redact') {
@@ -1710,7 +1703,6 @@ function handleMouseUp(e, pageIndex) {
                 w: canvasToPdf(Math.abs(w)), h: canvasToPdf(Math.abs(h)),
             });
             selectedIndex = annotations.length - 1;
-            setTool('select');
         }
     }
 
@@ -2289,7 +2281,6 @@ function commitText() {
     }
 
     redrawAnnotations(activePageIndex);
-    setTool('select');
 }
 
 // ==========================================
