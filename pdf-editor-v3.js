@@ -1,5 +1,5 @@
 // ==========================================
-// PDF Editor
+// Luxraj Editor
 // ==========================================
 import { PDFDocument, rgb, StandardFonts, degrees } from './vendor/pdf-lib.esm.js';
 import * as pdfjsLib from './vendor/pdf.min.mjs';
