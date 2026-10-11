@@ -1,4 +1,4 @@
-name: Deploy PDF annotation test to GitHub Pages
+name: Deploy Luxraj Editor to GitHub Pages
 
 on:
   push:
