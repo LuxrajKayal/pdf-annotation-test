@@ -164,7 +164,7 @@ input[type="number"]:focus {
 }
 
 /* ============================================
-   PDF Editor
+   Luxraj Editor
    ============================================ */
 
 .color-circle {
@@ -377,7 +377,7 @@ input[type="number"]:focus {
 .mt-sm { margin-top: 0.5rem; }
 
 /* ============================================
-   PDF Editor — 3-Column Layout
+   Luxraj Editor — 3-Column Layout
    ============================================ */
 .pdf-editor-layout {
     display: flex;
@@ -462,6 +462,32 @@ input[type="number"]:focus {
 }
 
 /* Context-Sensitive Top Bar */
+.luxraj-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-right: 2px;
+    color: var(--text);
+    font-size: 0.9rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+}
+
+.luxraj-brand-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+    background: var(--primary);
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
 .pdf-context-bar {
     padding: 6px 12px;
     background: var(--surface);
