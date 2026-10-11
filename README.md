@@ -1,10 +1,6 @@
-# PDF Annotation Test Copy
+# Luxraj Editor
 
-> Temporary testing copy of [mikispag/pdf-editor](https://github.com/mikispag/pdf-editor). The original project's MIT license is preserved in this repository's [LICENSE](LICENSE).
-
-# PDF Editor
-
-A client-side PDF editor built with vanilla JavaScript. All processing happens in the browser — no files are uploaded to any server.
+**Luxraj Editor** is a browser-based PDF annotation and page-management tool. It runs in your browser, and the app does not upload your PDF files to a server.
 
 ## Features
 
@@ -33,7 +29,7 @@ A client-side PDF editor built with vanilla JavaScript. All processing happens i
 - Zoom in/out (0.5x–3x)
 
 **UX**
-- Undo/redo (NOTICE: There is an issue while deleting +3 card immediately)
+- Undo and redo
 - Keyboard shortcuts for every tool
 - Dark mode
 - Drag-and-drop file upload
@@ -63,13 +59,14 @@ Then open `http://localhost:8000` in your browser.
 
 ```
 index.html          — Main HTML shell
-pdf-editor.js       — Application logic (~3,800 lines)
+pdf-editor-v3.js   — Current application module (~3,800 lines)
+pdf-editor.js       — Source copy of the application module
 pdf-editor.css      — Styles and design tokens
 vendor/
   pdf-lib.esm.js    — small CDN shim for pdf-lib
   pdf.min.mjs       — small CDN shim for PDF.js
 
-The test copy loads the large PDF libraries from jsDelivr, so it needs an internet connection. The upstream version stored the full libraries locally.
+The PDF libraries are loaded from jsDelivr, so an internet connection is required.
 ```
 
 ## Libraries
@@ -84,4 +81,4 @@ MIT
 
 ## GitHub Pages deployment
 
-This repository contains a GitHub Actions workflow at `.github/workflows/pages.yml`. If the site does not deploy automatically, open **Settings → Pages** and choose **GitHub Actions** as the deployment source. Then open **Actions → Deploy PDF annotation test to GitHub Pages → Run workflow**, selecting the `main` branch.
+This repository uses a GitHub Actions workflow at `.github/workflows/pages.yml`. If the site does not deploy automatically, open **Settings → Pages** and choose **GitHub Actions** as the deployment source. Then open **Actions → Deploy PDF annotation test to GitHub Pages → Run workflow**, selecting the `main` branch.
