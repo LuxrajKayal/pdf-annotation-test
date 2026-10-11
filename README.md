@@ -65,9 +65,9 @@ pdf-editor.css      — Styles and design tokens
 vendor/
   pdf-lib.esm.js    — small CDN shim for pdf-lib
   pdf.min.mjs       — small CDN shim for PDF.js
+```
 
 The PDF libraries are loaded from jsDelivr, so an internet connection is required.
-```
 
 ## Libraries
 
@@ -76,9 +76,9 @@ The PDF libraries are loaded from jsDelivr, so an internet connection is require
 
 ## License
 
-MIT
+[MIT License](LICENSE) — see [third-party notices](THIRD-PARTY-LICENSES.md) for upstream and library acknowledgements.
 
 
 ## GitHub Pages deployment
 
-This repository uses a GitHub Actions workflow at `.github/workflows/pages.yml`. If the site does not deploy automatically, open **Settings → Pages** and choose **GitHub Actions** as the deployment source. Then open **Actions → Deploy PDF annotation test to GitHub Pages → Run workflow**, selecting the `main` branch.
+This repository uses a GitHub Actions workflow at `.github/workflows/pages.yml`. If the site does not deploy automatically, open **Settings → Pages** and choose **GitHub Actions** as the deployment source. Then open **Actions → Deploy Luxraj Editor to GitHub Pages → Run workflow**, selecting the `main` branch.
