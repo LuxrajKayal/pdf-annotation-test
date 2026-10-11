@@ -1,0 +1,25 @@
+# Luxraj Editor — All Rights Reserved
+
+Copyright (c) 2026 Luxraj Editor. All rights reserved.
+
+## Scope
+
+This notice applies only to original materials and contributions created specifically for Luxraj Editor and owned by Luxraj Editor, including its branding, original documentation, and original additions or modifications to the extent that Luxraj Editor owns the applicable rights. It does not claim ownership of third-party or upstream materials.
+
+## Limited permission to inspect source code
+
+You may view and download source files from this public repository, and make a personal local copy, solely for inspection, learning, and reference.
+
+Except for that limited permission, no permission is granted to reuse Luxraj-owned original material in another project, modify or adapt that material, create or distribute derivative versions of those materials, republish or redistribute them, sell or sublicense them, or host and publicly deploy a copy of Luxraj Editor. You may share a link to this repository. Any other permission requires prior written authorization from the relevant rights holder.
+
+The Luxraj Editor name, logo, and branding may not be used to imply endorsement or to present another product as the official Luxraj Editor without written permission.
+
+## Upstream code and third-party components
+
+This project includes code adapted from the MIT-licensed `pdf-editor` project. The applicable upstream MIT license is reproduced in [UPSTREAM-MIT-LICENSE.md](UPSTREAM-MIT-LICENSE.md). That license independently permits use, copying, modification, and distribution of the upstream code subject to its terms. Nothing in this notice removes or restricts rights granted by that upstream license.
+
+Third-party libraries and components remain governed by their respective licenses, listed in [THIRD-PARTY-LICENSES.md](THIRD-PARTY-LICENSES.md).
+
+## No additional permissions
+
+No rights are granted to Luxraj-owned original materials other than the limited source-inspection permission stated above. Applicable law and any rights that cannot legally be restricted remain unaffected.
