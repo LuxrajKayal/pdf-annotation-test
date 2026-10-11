@@ -1707,6 +1707,11 @@ function handleMouseUp(e, pageIndex) {
     }
 
     redrawAnnotations(pageIndex);
+
+    // Rectangle, ellipse, line, and arrow are one-shot tools: return to Select after drawing.
+    if (['rect', 'ellipse', 'line', 'arrow'].includes(currentTool)) {
+        setTool('select');
+    }
 }
 
 // ==========================================
