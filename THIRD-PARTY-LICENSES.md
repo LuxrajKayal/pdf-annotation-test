@@ -1,8 +1,8 @@
-# Third-party libraries used by this test copy
+# Third-party notices for Luxraj Editor
 
-This test deployment loads two PDF libraries from jsDelivr instead of storing their large distribution files in this repository.
+Luxraj Editor loads two PDF libraries from jsDelivr instead of storing their large distribution files in this repository.
 
 - **pdf-lib 1.17.1** — [project](https://github.com/Hopding/pdf-lib), [MIT License](https://github.com/Hopding/pdf-lib/blob/master/LICENSE.md).
 - **PDF.js 5.7.284** — [project](https://github.com/mozilla/pdf.js), [Apache License 2.0](https://github.com/mozilla/pdf.js/blob/master/LICENSE).
 
-The original PDF Editor project and its MIT license are preserved in this repository's [LICENSE](LICENSE). This test copy uses CDN-hosted libraries, so it requires an internet connection to load them.
+Source acknowledgement: Luxraj Editor is adapted from the MIT-licensed [pdf-editor project](https://github.com/mikispag/pdf-editor). The upstream MIT license notice is retained in [LICENSE](LICENSE). Because these libraries are loaded from a CDN, an internet connection is required.
