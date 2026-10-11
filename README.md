@@ -80,3 +80,8 @@ The test copy loads the large PDF libraries from jsDelivr, so it needs an intern
 ## License
 
 MIT
+
+
+## GitHub Pages deployment
+
+This repository contains a GitHub Actions workflow at `.github/workflows/pages.yml`. If the site does not deploy automatically, open **Settings → Pages** and choose **GitHub Actions** as the deployment source. Then open **Actions → Deploy PDF annotation test to GitHub Pages → Run workflow**, selecting the `main` branch.
