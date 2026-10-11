@@ -74,9 +74,13 @@ The PDF libraries are loaded from jsDelivr, so an internet connection is require
 - [pdf-lib](https://pdf-lib.js.org/) — Create and modify PDFs
 - [PDF.js](https://mozilla.github.io/pdf.js/) — Render PDFs in the browser
 
-## License
+## License and usage rights
 
-[MIT License](LICENSE) — see [third-party notices](THIRD-PARTY-LICENSES.md) for upstream and library acknowledgements.
+- **Luxraj-owned original materials:** The [Luxraj Editor All Rights Reserved notice](LICENSE) applies to original contributions and branding that Luxraj Editor owns. You may download and copy the public source for personal inspection, learning, and reference only; that limited permission does not authorize modifying, reusing, redistributing, or publicly deploying Luxraj-owned materials.
+- **Upstream code:** This project adapts code from [mikispag/pdf-editor](https://github.com/mikispag/pdf-editor). Its MIT license is preserved in [UPSTREAM-MIT-LICENSE.md](UPSTREAM-MIT-LICENSE.md). The upstream MIT terms continue to apply to that code and cannot be overridden by the Luxraj notice.
+- **Third-party libraries:** See [THIRD-PARTY-LICENSES.md](THIRD-PARTY-LICENSES.md) for their separate licenses.
+
+This is a mixed-license project: the Luxraj notice applies only to materials Luxraj Editor owns and does not claim rights in upstream or third-party code.
 
 
 ## GitHub Pages deployment
